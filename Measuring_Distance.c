@@ -45,12 +45,12 @@ int main()
 		if (distance<100)
 		{
 			LCD_intgerToString(distance);
-			LCD_displayString(" ");					/*delete last digit if number is less than 3 digits*/
+			LCD_displayString("  ");					/*delete last digit if number is less than 3 digits*/
 		}
 		else if (distance<10)
 		{
 			LCD_intgerToString(distance);
-			LCD_displayString(" ");					/*delete last digit if number is less than 2 digits*/
+			LCD_displayString("  ");					/*delete last digit if number is less than 2 digits*/
 		}
 		else
 		{
